@@ -15,6 +15,10 @@
 
 > HashMap继承了AbstractMap，实现Map接口，Cloneable和Serializable接口。
 
+### HashMap总初始化的值 ###
+
+> capacity的初始化的大小是16，且必须是2的幂；最大capacity的大小是2的30次方；默认的加载因子是0.75。
+
 ### HashMap中的方法 ###
 
 > 实现Map接口中的方法，增加了resize()，treeifyBin()，removeNode()等方法。    
